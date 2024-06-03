@@ -29,11 +29,12 @@ public class TutorialController {
 	@Autowired
 	TutorialRepository tutorialRepository;
 
+
 	@GetMapping("/tutorials")
 	public ResponseEntity<List<Tutorial>> getAllTutorials(@RequestParam(required = false) String title) {
 		try {
 			List<Tutorial> tutorials = new ArrayList<Tutorial>();
-
+			System.out.println("get mapping 35");
 			if (title == null)
 				tutorialRepository.findAll().forEach(tutorials::add);
 			else
@@ -63,6 +64,7 @@ public class TutorialController {
 	@PostMapping("/tutorials")
 	public ResponseEntity<Tutorial> createTutorial(@RequestBody Tutorial tutorial) {
 		try {
+			System.out.println("hiii");
 			Tutorial _tutorial = tutorialRepository
 					.save(new Tutorial(tutorial.getTitle(), tutorial.getDescription(), false));
 			return new ResponseEntity<>(_tutorial, HttpStatus.CREATED);
