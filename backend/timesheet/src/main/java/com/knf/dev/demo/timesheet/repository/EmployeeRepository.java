@@ -1,4 +1,3 @@
-/*
 package com.knf.dev.demo.timesheet.repository;
 
 import com.knf.dev.demo.timesheet.entity.Employee;
@@ -8,4 +7,4 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee,Long> {
 }
-*/
+

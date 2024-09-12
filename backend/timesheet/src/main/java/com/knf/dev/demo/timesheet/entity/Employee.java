@@ -1,4 +1,3 @@
-/*
 package com.knf.dev.demo.timesheet.entity;
 
 import jakarta.persistence.*;
@@ -46,4 +45,4 @@ public class Employee {
         this.lastname = lastname;
     }
 }
-*/
+
