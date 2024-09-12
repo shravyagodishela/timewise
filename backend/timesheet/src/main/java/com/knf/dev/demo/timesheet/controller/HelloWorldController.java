@@ -1,4 +1,4 @@
-package com.knf.dev.demo.helloworld.controller;
+package com.knf.dev.demo.timesheet.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

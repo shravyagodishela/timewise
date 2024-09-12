@@ -1,13 +1,13 @@
-package com.knf.dev.demo.helloworld;
+package com.knf.dev.demo.timesheet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloworldApplication {
+public class TimeSheetApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HelloworldApplication.class, args);
+		SpringApplication.run(TimeSheetApplication.class, args);
 	}
 
 }

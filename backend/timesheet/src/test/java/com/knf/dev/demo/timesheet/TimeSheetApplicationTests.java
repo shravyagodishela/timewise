@@ -1,10 +1,10 @@
-package com.knf.dev.demo.helloworld;
+package com.knf.dev.demo.timesheet;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloworldApplicationTests {
+class TimeSheetApplicationTests {
 
 	@Test
 	void contextLoads() {

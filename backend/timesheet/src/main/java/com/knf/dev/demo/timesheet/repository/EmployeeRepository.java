@@ -1,7 +1,7 @@
 /*
-package com.knf.dev.demo.helloworld.repository;
+package com.knf.dev.demo.timesheet.repository;
 
-import com.knf.dev.demo.helloworld.entity.Employee;
+import com.knf.dev.demo.timesheet.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

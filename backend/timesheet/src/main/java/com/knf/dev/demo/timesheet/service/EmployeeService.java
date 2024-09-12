@@ -1,8 +1,8 @@
 /*
-package com.knf.dev.demo.helloworld.service;
+package com.knf.dev.demo.timesheet.service;
 
-import com.knf.dev.demo.helloworld.entity.Employee;
-import com.knf.dev.demo.helloworld.repository.EmployeeRepository;
+import com.knf.dev.demo.timesheet.entity.Employee;
+import com.knf.dev.demo.timesheet.repository.EmployeeRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

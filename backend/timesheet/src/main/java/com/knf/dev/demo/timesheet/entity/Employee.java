@@ -1,5 +1,5 @@
 /*
-package com.knf.dev.demo.helloworld.entity;
+package com.knf.dev.demo.timesheet.entity;
 
 import jakarta.persistence.*;
 
